@@ -1,21 +1,6 @@
 "use strict";
 
-// 1 Stworzyć message text context
-// 2 Strzorzyć sekretny numer
-// 3 zrobić do btn check event listenera
-// zmienić wartość inputu na numer do porównania z sekretnym numerem
-// zmienić message kiedy input wynosi 0 lub jest pusty
-// ustalić gdy wynik  jest sekretnym numerem i gdy nie
-// zmienić message gdy odpowiedź jest prawidłowa albo za wysoka albo za mała
-// stworzyć zmienna score i dać jej wartość 20
-// odjąć od wartości score 1 numer gry guess number jest za duży lub za mały
-// wyświetlić aktualną wartość scoru
-// zatrzymać dalsze zgadywanie gdy wynik wynosi 0 i wyświetlić message
-//ustawić highscore, gdy score jest wiekszy od highscore ustawić highscore na score
-//ustawić tekstcontent highscoru
-//ustawić btn again przywrócić wszystko do stanu wyjściowego
 
-// document.querySelector(".message").textContent = "Correct";
 
 let secrtetNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
